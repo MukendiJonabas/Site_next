@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Footer from "./component/footer";
+
 import Syc from "../app/public/Sycamore.jpg";
 export default function Home() {
   return (
@@ -11,8 +11,6 @@ export default function Home() {
         alt="image"
         quality={100}
       />
-
-      <Footer />
     </div>
   );
 }
